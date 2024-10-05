@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f45d822d-0809-4678-99d7-815f8a0637f5}">
 		<property name="name">
-			<value>Sprite_Grunt</value>
+			<value>Grunt</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{66bf9f12-cf62-4553-bb48-6d7cf375a466}</destination>
+			<destination>{a673a708-0c91-431c-8a71-17bff4910f1a}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{7d4b0fa2-ef0f-4228-850e-3a3c92c03f16}</destination>

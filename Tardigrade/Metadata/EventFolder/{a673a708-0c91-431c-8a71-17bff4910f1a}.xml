@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EventFolder" id="{17813cf1-98c0-49cc-aeb7-45e9b8d94c4d}">
+	<object class="EventFolder" id="{a673a708-0c91-431c-8a71-17bff4910f1a}">
 		<property name="name">
-			<value>SpaceMainMenu</value>
+			<value>CommonUI</value>
 		</property>
 		<relationship name="folder">
 			<destination>{66bf9f12-cf62-4553-bb48-6d7cf375a466}</destination>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c5a899a1-95f1-4657-9cc9-622d4c0fee2f}">
+		<property name="assetPath">
+			<value>Eggsplat.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.1018140589569161</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f4f39634-6ba1-442e-b6c9-368d8fe0fe37}</destination>
+		</relationship>
+	</object>
+</objects>
