@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f45d822d-0809-4678-99d7-815f8a0637f5}">
 		<property name="name">
-			<value>New Event 2</value>
+			<value>Sprite_Grunt</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{9f3b2cd1-ecbd-41b2-99de-3ce2e4007c37}</destination>
+			<destination>{66bf9f12-cf62-4553-bb48-6d7cf375a466}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{7d4b0fa2-ef0f-4228-850e-3a3c92c03f16}</destination>
@@ -84,9 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{54886ad3-eb05-45c4-a30e-f4332bda2f7a}">
 		<relationship name="sounds">
-			<destination>{0bb4eeae-d357-4e0f-aeac-bf0273b73cf6}</destination>
-			<destination>{e4b8c76f-9143-42c5-ba95-6873a3149a7e}</destination>
-			<destination>{45386925-21aa-4ea6-ae89-f2940ac9e01b}</destination>
+			<destination>{219332b8-6b20-4898-9e19-aaf3310fdfcd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{adc8cc46-f264-40d3-a856-900a65ebca2b}">
@@ -101,21 +99,52 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{41bfcbc9-0059-46a1-8f3d-86a8d8c0330f}" />
-	<object class="SingleSound" id="{0bb4eeae-d357-4e0f-aeac-bf0273b73cf6}">
-		<relationship name="audioFile">
-			<destination>{2aa5cfd0-1f75-464c-896d-8f74c537d989}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{e4b8c76f-9143-42c5-ba95-6873a3149a7e}">
-		<relationship name="audioFile">
-			<destination>{b4fce849-b72a-4a09-8620-0e7e1726c23e}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{45386925-21aa-4ea6-ae89-f2940ac9e01b}">
-		<relationship name="audioFile">
-			<destination>{d5b5f6bc-3e64-4615-8b90-6d126abd4874}</destination>
+	<object class="MultiSound" id="{219332b8-6b20-4898-9e19-aaf3310fdfcd}">
+		<relationship name="sounds">
+			<destination>{766112d2-e830-419d-9e01-8b714e909d89}</destination>
+			<destination>{21c69139-27ee-446d-85b0-7d3aa3df3707}</destination>
+			<destination>{211075f6-d568-4d0d-8c67-b0b4b4577b2e}</destination>
+			<destination>{081d5749-782e-40a2-8d15-2e718d60b7f8}</destination>
+			<destination>{2636dfa1-a798-4856-b6e4-64334ad52658}</destination>
+			<destination>{c787ce08-6291-4942-9540-cd27874bab65}</destination>
+			<destination>{ff6b8c81-4b96-4fa6-9f67-01b2a45cad31}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d55a0c17-785c-49e9-b72e-7194585bd0ad}" />
 	<object class="MixerBusFader" id="{a48f698c-e5e8-4380-8dcd-384a365d3bd6}" />
+	<object class="SingleSound" id="{766112d2-e830-419d-9e01-8b714e909d89}">
+		<relationship name="audioFile">
+			<destination>{135fbaf3-1bd2-41a1-b47f-b0cdb93da33c}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{21c69139-27ee-446d-85b0-7d3aa3df3707}">
+		<relationship name="audioFile">
+			<destination>{fc8f562e-8bd8-428a-9b28-1c03443e5128}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{211075f6-d568-4d0d-8c67-b0b4b4577b2e}">
+		<relationship name="audioFile">
+			<destination>{e1c91824-e4fe-415b-9241-4fba8975e5f4}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{081d5749-782e-40a2-8d15-2e718d60b7f8}">
+		<relationship name="audioFile">
+			<destination>{c3b132aa-1a3c-49fb-bad2-9c4ef5fbc128}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{2636dfa1-a798-4856-b6e4-64334ad52658}">
+		<relationship name="audioFile">
+			<destination>{199c949a-ca3b-434b-8ac5-bde0ef02ceae}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{c787ce08-6291-4942-9540-cd27874bab65}">
+		<relationship name="audioFile">
+			<destination>{2e528ab2-fe16-4588-93a4-7c38975cbb73}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ff6b8c81-4b96-4fa6-9f67-01b2a45cad31}">
+		<relationship name="audioFile">
+			<destination>{486d14cc-3b1a-4a16-939b-e6eb6c21238f}</destination>
+		</relationship>
+	</object>
 </objects>
