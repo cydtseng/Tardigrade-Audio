@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4389ca04-855a-4f9d-8980-2ae2f87acdfb}">
+		<property name="name">
+			<value>Mute</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ba46de5f-abfb-42f7-926a-6f08024ec082}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7bff387f-1614-4578-bfc8-cb6f0fc181ac}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7bff387f-1614-4578-bfc8-cb6f0fc181ac}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
