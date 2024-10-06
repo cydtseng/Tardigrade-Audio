@@ -13,10 +13,21 @@
 	</object>
 	<object class="GameParameter" id="{7425372f-33f7-42cc-bb16-4aaf2d8b91b6}">
 		<property name="parameterType">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="maximum">
 			<value>9</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Space0</value>
+			<value>Space1</value>
+			<value>Space2</value>
+			<value>IceAge</value>
+			<value>Volcano</value>
+			<value>Desert</value>
+			<value>Worm</value>
+			<value>President</value>
+			<value>WW5</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
