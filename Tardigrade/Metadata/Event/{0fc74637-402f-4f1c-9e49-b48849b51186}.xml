@@ -5,7 +5,7 @@
 			<value>FireExplosion</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{087ca3f9-1033-406d-a9b5-cfbf8a74cb50}</destination>
@@ -59,7 +59,11 @@
 			<destination>{a1465efc-fe80-4418-99bb-8b51db6a8381}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{653d1ba0-1067-4ae3-a814-a3635df03cbf}" />
+	<object class="EventAutomatableProperties" id="{653d1ba0-1067-4ae3-a814-a3635df03cbf}">
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{ce864f24-499a-4e48-9989-dc79352273b4}" />
 	<object class="Timeline" id="{386f280c-4bdb-4662-86e1-bce4143ab228}">
 		<property name="isProxyEnabled">
@@ -95,6 +99,7 @@
 	<object class="MixerBusPanner" id="{4f7a4015-74e8-4da9-8673-5a126522db20}" />
 	<object class="MixerBusEffectChain" id="{b2db1a03-1bbb-42dd-b0fc-4a03d4f7f365}">
 		<relationship name="effects">
+			<destination>{040717cb-e5aa-4355-9fa2-42bfbede6730}</destination>
 			<destination>{d57816c9-d5c9-4557-b6f4-fb037fcfafb8}</destination>
 		</relationship>
 	</object>
@@ -105,5 +110,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ea37816e-990d-4e04-ba72-8f4da5051853}" />
+	<object class="SpatialiserEffect" id="{040717cb-e5aa-4355-9fa2-42bfbede6730}" />
 	<object class="MixerBusFader" id="{d57816c9-d5c9-4557-b6f4-fb037fcfafb8}" />
 </objects>

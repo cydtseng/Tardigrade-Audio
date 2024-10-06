@@ -5,7 +5,7 @@
 			<value>Eggsplat</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c2bc3c7b-521b-4393-9fdc-892ec6eaa40f}</destination>
@@ -95,6 +95,7 @@
 	<object class="MixerBusPanner" id="{3afabfe9-1b84-4ad9-96c3-94506d06a732}" />
 	<object class="MixerBusEffectChain" id="{697b7ce1-1fe5-48e2-945f-701c856889d7}">
 		<relationship name="effects">
+			<destination>{86807966-9c32-426e-a7bb-1f27ae71a844}</destination>
 			<destination>{f404bff5-e2b3-45ad-bb9b-0572c0430bb8}</destination>
 		</relationship>
 	</object>
@@ -105,5 +106,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{21991529-bf50-47af-b9d5-dea7f7cf0005}" />
+	<object class="SpatialiserEffect" id="{86807966-9c32-426e-a7bb-1f27ae71a844}" />
 	<object class="MixerBusFader" id="{f404bff5-e2b3-45ad-bb9b-0572c0430bb8}" />
 </objects>
