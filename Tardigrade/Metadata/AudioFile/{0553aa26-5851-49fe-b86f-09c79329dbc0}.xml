@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0553aa26-5851-49fe-b86f-09c79329dbc0}">
+		<property name="assetPath">
+			<value>Volcano.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>88.073401360544224</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f4f39634-6ba1-442e-b6c9-368d8fe0fe37}</destination>
+		</relationship>
+	</object>
+</objects>
