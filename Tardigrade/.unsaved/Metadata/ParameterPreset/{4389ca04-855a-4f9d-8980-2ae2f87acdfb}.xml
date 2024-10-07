@@ -15,5 +15,16 @@
 		<property name="initialValue">
 			<value>0</value>
 		</property>
+		<property name="seekSpeed">
+			<value>1</value>
+		</property>
+		<relationship name="automators">
+			<destination>{27b1dfba-28a3-437e-8f09-9e1ab6ea3fd2}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{27b1dfba-28a3-437e-8f09-9e1ab6ea3fd2}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
 	</object>
 </objects>
