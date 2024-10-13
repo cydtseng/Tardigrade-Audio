@@ -399,6 +399,7 @@
 	<object class="MixerBusEffectChain" id="{f1e18394-7a1c-4f81-ae67-cb23947bd07e}">
 		<relationship name="effects">
 			<destination>{58e0af15-f492-441a-b44f-a481f0d6a30c}</destination>
+			<destination>{5081c6ef-0938-4fd3-877d-056cf58f08a3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c6178619-be66-485f-8503-db6ffa19aa2f}" />
@@ -500,6 +501,7 @@
 		<relationship name="automationCurves">
 			<destination>{cf3b9213-982e-4435-af4a-e0f5666323a1}</destination>
 			<destination>{ef8e168e-8612-414c-8028-58f485f4fb8a}</destination>
+			<destination>{2fe4c998-f2f8-4b29-b721-48f878a102f0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{4c474a49-3dc4-459e-a382-479fc3ab3b5e}">
@@ -509,6 +511,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{c74072d3-f940-4320-8ae5-799a2be1283a}" />
 	<object class="MixerBusFader" id="{58e0af15-f492-441a-b44f-a481f0d6a30c}" />
+	<object class="CompressorEffect" id="{5081c6ef-0938-4fd3-877d-056cf58f08a3}" />
 	<object class="AutomationCurve" id="{bf5cf581-13bd-42ce-a040-a00fe05703cf}">
 		<relationship name="parameter">
 			<destination>{7425372f-33f7-42cc-bb16-4aaf2d8b91b6}</destination>
@@ -645,6 +648,14 @@
 		<relationship name="automationPoints">
 			<destination>{e680ed55-1abf-42f6-b273-f875f506f9d7}</destination>
 			<destination>{3074755d-7ced-4cc8-9174-e4af93893054}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{2fe4c998-f2f8-4b29-b721-48f878a102f0}">
+		<relationship name="parameter">
+			<destination>{3012e6c8-b86e-41cd-ab87-ab19bae1ecc5}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{2ad479ec-7791-4941-bd93-e693930793b2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{140ddbda-52ca-498c-8b4a-2ece8235881a}" />
@@ -938,6 +949,14 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{2ad479ec-7791-4941-bd93-e693930793b2}">
+		<property name="position">
+			<value>5.7434004757618622</value>
+		</property>
+		<property name="value">
 			<value>1</value>
 		</property>
 	</object>
